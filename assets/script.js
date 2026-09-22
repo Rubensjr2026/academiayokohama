@@ -1,1 +1,0 @@
-const PHONE='5547996829148';document.querySelectorAll('.wa').forEach(a=>{const c=a.dataset.class;const msg=c?`Olá! Vi o site da Academia Yokohama e quero saber mais sobre ${c}.`:'Olá! Vi o site da Academia Yokohama e gostaria de agendar uma aula experimental.';a.href=`https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`;a.target='_blank';a.rel='noopener noreferrer'});
